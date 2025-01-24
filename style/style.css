@@ -478,11 +478,32 @@ text-align: center; */
   color: black;
 }
 
+/* .bar{
+  overflow: hidden;
+}
+#toggler, label{
+  display: none;
+}
+label i{
+  color: black;
+} */
+
 
 
 
 /* Moble style */
 @media screen and (max-weidth:576px) {
+
+ /* .nav-links{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    label{
+        display: inline-flex;
+    }
+     */
+
   .banner-container{
 
     flex-direction: column-reverse;
@@ -493,6 +514,26 @@ text-align: center; */
  }
  .symbol{
   display: none;
+}
+.marquee{
+  display: none;
+}
+.story1{
+  display: none;
+}
+
+.story4{
+  grid-template-columns: calc(repeat 2, 2fr);
+  
+ }
+ .footer-all{
+  flex-direction: column;
+}
+.story{
+  flex-direction: column;
+}
+.nav-barlogo{
+  
 }
   
 }
